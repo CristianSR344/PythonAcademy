@@ -1,4 +1,5 @@
 # Example 1: invalid conversion
+suma = 1000
 text_values = ["10", "3.14", "abc"]
 
 for t in text_values:
@@ -15,7 +16,7 @@ floats = [3.1, 3.5, 3.9, -2.7]
 for f in floats:
     print(f"float: {f} -> int: {int(f)}")
     
-
+suma = 500
 # None and Missing Values
 
 result = None
@@ -33,3 +34,8 @@ print("Is country None?", country is None)
 print("\nUsing a default when the key is missing:")
 country_with_default = record.get("country", "Unknown")
 print("country_with_default:", country_with_default)
+
+
+suma = 2500
+
+print(suma)
